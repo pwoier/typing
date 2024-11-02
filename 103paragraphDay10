@@ -1,0 +1,23 @@
+python developers guide
+this guide is a comprehensive resource for contributing to python for both new and experienced contributors. it is maintained by the same community that maintains python. we welcome your contributions to python
+quick reference
+here are the basic steps needed to get set up and contribute a pull request. this is meant as a checklist, once you know the basics. for complete intruction please see the setup guide.
+install and set up git and other dependencies see the git setup page for detailed information.
+fork the cpython repository to your github account and get the source code using
+see also more detailed instructions, how to install and build dependencies, and the platform page for unix, macos and windows.
+create a new branch where your work for the issue will go, for example
+if an issue does not already exist, please create it. trivial issues for example, typo fixes do not require any issue to be created.
+once you fixed the issue. run the tests, and the patchcheck
+if everything is ok commit
+push the branch on your fork on github and create a pull request include the issue number using in the pull request description. for example
+add a news entry into the directory as individual file. the news entry can be created by using blurb it or the blurb tool and its command. please read more about in its repository.
+here are some links that you probably will refernce frequently while contributing to python.
+new to programming python is free and easy to learn if you know where to start this guide will help you to get started quickly.
+chinese translation 
+new to python
+read beginnersguide overview for a short explanation of what python is.
+getting python
+next install the python 3 interpreter on your computer this is the program that reads python programs and carries out their instructions you need it before you can do any python programming. mac and linux distribution may include an ourdated version of python but you should install an updated one python 3. see beginnersguide download for instructions to download the correct version of python.
+there are also python interpreter and ide bundles available such as thonny. other options can be found at integrateddevelopment enviroments.
+at some stage youll want to edit and save your program code, take a look at
+edit python code for some advise and recommendations.

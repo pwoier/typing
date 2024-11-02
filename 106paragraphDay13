@@ -1,0 +1,9 @@
+how can i recover the original file from a .swp file
+i tried opening the .swp file using v and cat but it displays junk. share improve this question follow 
+are you using vi or vim
+does this work with emacs or sublime nano ed etc
+vim r .swp
+this goes into recovery mode and gives you more info. i think this is what you want.
+.swx files are left behind if a session with an unsaved file is killed crashes something else bad happens. they are also present during the time an unsabed buffer is open in a vim session. vim r reads these temporary files and recreates the content. after youve recoverd it, just save it as usual eg w newlinename
+share improve this answer follow
+precisely what i was looking for. for anyone else this is how you recover as of yet unsaved files. the above methods work fine if a file already exists, but you cant open a file with no name. Eric Hu
