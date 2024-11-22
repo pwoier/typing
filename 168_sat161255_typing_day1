@@ -1,0 +1,12 @@
+The php team is pleased to announce the release of php rc. this is the fourth release candidate, continuing the php release cycle, the rough outline of which is specified in the php wiki
+for source downloads of php rc please visit the download page.
+please carefully test this version and report any issues found in the bug reporting system.
+please do not use this version in production, it is an early test version.
+for more information on the new features and other changes, you can read the news file or the upgrading for a complete list of upgrading notes. these files can also be found in the release archive.
+the next release will be the production-ready, general availability release, planned for 21 november 2024.
+the signatures for the release can be found in the manifest or on the qa site.
+thank you for helping us make php better.
+php rc available for testing
+the php team is pleased to announce the release of php, rc. this is third release candidate, continuing the php release cycle, the rough outline of which is specified in the php wiki.
+for source downloads of php rc please visit the download page.
+please carefully test this version and report any issues found in the bug reporting system.
