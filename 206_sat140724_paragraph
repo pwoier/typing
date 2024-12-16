@@ -1,0 +1,35 @@
+Purpose Of This Tutorial
+This is written to help people understand some of the basic of shell script programming aka shell scripting, and hopefully to introduce some of the possibilities of simple but powerful programming available under the Bourne shell. As such, it has been written as a basis for one on one or group tutorials and exercises, as a refrence for subsequent use.
+Getting The Most Recent Version Of This Tutorial
+You are reading Version last updated June
+The most recent version of this tutorial is always available at. Always check there for the latest copy. If you are reading this at some different address, it is probably a copy of the real site, and therefore may be out of date.
+A Brief History of sh
+Steve Bourne wrote the original Bourne shell which appeared in the Seventh Edition Bell Labs Reseach version of Unix. Many variants have come and gone over time csh, ksh, and so on.
+This tutorial restricts itself to being Bourne shell compatible, to provide a baseline. This tutorial covers all shell scripting basics. The Shell Scripting Exampales section of the tutorial adds additional examples in particular of how the Bash shell provides additional useful functionality over the standard bourne shell.
+Audience 
+This tutorial assumes some prior experience namely
+Use of an interactive Unix/Linux shell
+Minimal programming knowledge use of variables, functions, is useful background knowledge
+Understanding of some Unix/Linux commands, and competence is using some of the more common ones. ls, cp, echo, etc
+Programmers of ruby, perl, python, C, Pascal or programming language even BASIC who can maybe read shell scripts, but dont feel they understand exactly how they work
+You may want to review some of the feedback that this tutorial has received to see how useful you might find it.
+Typographical Conventions Used is This Tutorial
+Code segments and script output will be displayed as monospaced text. Command line entries will be preceded by the Dollar sign S. If your prompt is different, enter the command.
+Then your interactions should match the examples given such as my script.sh below. Script output Hello World below is displayed at the start of the line.
+Entrie scripts will be shown with a like this, and include a reference to the plain text of the script, where available like this my script.sh
+Note that to make a file executable, you must set the eXecutable bit, and for a shell script, the Readable bit must also be set. So it is likely that you will need to change the permissions on your script, to make it executable. If your script is named myscript.sh then you will need to change its permissions, like this
+The Shell Scripting Tutorial
+Philosopy
+Shell script programming has a bit of a bad press amongst some Unix systems administrators. This is normally because of one of two things.
+The speed at which an interpreted program will run as compared to a C program, or even an interpreted Perl program.
+Since it is easy to write a simple batch job type shell script, there are a lot of poor quality shell scripts around.
+It is partly due to this that there is a certain machismo associated with creating good shell scripts. Scripts which can be used as CGI programs, for example, without losing out too much in speed to Perl through both would lose to C, in many cases, were speed the only criterion.
+The most important criteria must be a clear, readable layout.
+Second is avoiding unnecessary commands.
+A clear layout makes the difference between a shell script appearing as black magic and one which is easily maintained and understood.
+Yor may be forgiven for thinking that with a simple script, this is not too significant a problem, but two things here are worth bearing is mind.
+First, a simple script will, more often than anticipated grow into a large complex one.
+Secondly, if nobody else can understand how it works, you will be lumbered with maintainig it yourself for the rest of your life
+Something about shell scripts seems to make them particularly likely to be badly indented, and since the main control structure are if then else and loops, indentation is critical for understanding what a script does.
+One weakness in many shell scripts is line such as.
+which would run much faster as.
