@@ -1,0 +1,10 @@
+Network Devices
+An interconnection of multiple devices, also known as hosts, that are connected using multiple paths for the purpose of sending receiving data or media. Computer networks can also include multiple devices mediums which help in the communication between two different devices these are known as Network devices and include things such as routers, switches, hubs and bridges.
+Network Topology
+The Network Topology is the layout arrangement of the different devices in a network. Some types of network topologies are:
+Bus Topology In bus topology all devices are connected to a single central cable called a bus. Data is sent along this cable and all devices share the same connection. Simple and cheap to set up but if the main cable fails the whole network goes down.
+Star Topology In star topology all devices are connected to a central node called hub controls the flow of data between devices. If one device fails the rest of the network. But, if the central hub fails the whole network stops working.
+Ring Topology In ring topology devices are connected in a circular loop with each device connected to two others. Data travels in one direction or sometimes both passing through each device until it reaches its destination. A failure in one device can affected the whole network.
+Mesh Topology In mesh topology every device is connected to every other device in the network. It provides multiple paths for data so if one path fails another can take over.
+Tree Topology Tree topology is the combination of star and bus topology. Tree topology is good for organizing large networks and allows for easy expansion.
+Hybrid Topology Hybrid topology is the combination of two or more different topologies like star and mesh. It is flexible and can be customized based on the networks specific needs.

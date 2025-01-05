@@ -1,0 +1,6 @@
+Computer Network Tutorial
+A computer network is a collection of computers or devices connected communicate and share resources. Below are the main components of a computer network.
+Node Any device which can share or receive data. Examples of devices are laptop, mobile, printer, earbuds and server. Transmission Media The medium through which devices communicate It can be a wired media like Optical Fiber are Ethernet Cables. It can also be a wireless media like WiFi, Bluetooth and Infrared. Protocol The set of rules that devices use to communicate. There are many different protocols for different types of communications. Examples are HTTP For web browsing and SMTP For emails.
+Networking Devices The devices with main purpose of providing network facilities. Examples are Router, Switch, Access Point and Hub.
+Networking Applications Software that provide an interface to communicate and share. Examples are browser, eamil clients, and file sharing applications.
+In this Computer network tutorial, youll learn basic to advanced concepts like the Basics of computer networks, data link layer, network layer, network security and cryptography. compression techniques, etc.

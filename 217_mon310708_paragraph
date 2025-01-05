@@ -1,0 +1,2 @@
+Testing a Home Router or Small Business for Open Ports
+In the diagram below we have a number of devices behind a typical broadband router. It is important to understand if any ports are open on the Internal facing interface as these are accessible by anyone on the Internet. Open ports on broadband router could be management ports on the router that allow a remote user to change the configuration of the router. Another form of open port on the broadband router are ports that are forwarded to internal systems.
