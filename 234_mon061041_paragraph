@@ -1,0 +1,39 @@
+Other Related Concepts
+DNS Server DNS stands for Domain Name System. DNS is basically a server that translates web addresses or URLs ex www.google.com into their corresponding IP addresses. We dont have to remember all the IP addresses of each and every website. The command nslookup gives you the IP address of the domain you are looking for. This also provides information on our DNS Server.
+ARP ARP stands for Address Resolution Protocol. It is used to convert an IP address to its corresponding physical address i.e MAC Address. ARP is used by Data Link Layer to identify the MAC address of the Receivers machine.
+RARP RARP stands for Reverse Address Resolution Protocol. As the name suggests, it provides the IP address of the device given a physical address as input. But RARP has become obsolete since the time DHCP has come into the picture.
+The Domain Name System DNS is a critical component of computer networking. It converts easily recognizable domain names. such as www.example.com, into numerical IP addresses that computers use to identify each other on the network.
+How DNS works
+DNS works efficiently, translating user friendly domain names into IP addresses, allowing seamless navigation on the internet. Below step by step working os DNS
+User Input When a user enters a domain name in a browser, the system needs to find its IP address.
+DNS Query The users device sends a DNS query to the DNS resolver.
+Resolver Request The DNS resolver checks its cache for the IP address. If not found, it forwards the request to the root DNS server.
+Authoritative DNS Server The authoritative DNS server knows the IP address for the domain and provides it to the resolver.
+Response to User The resolver stores the IP address in its cache and sends it to the users device.
+Access Website With the IP address, the users device can access the desired website.
+Network Security
+Ensuring the security of a network is crucial to protect data and resources from unauthorized access and attacks. Key aspects of network security include.
+Firewalls Devices or software that monitor and control incoming and outgoing network traffic based on security rules.
+Encryption The process of encoding data to prevent unauthorized access. Commonly used in VPNs, HTTPS, and secure email.
+Intrusion Detection Systems IDS Tools that monitor network traffic for suspicious activity and potential threats.
+Access Control Mechanisms that restrict access to network resorces based on user identity and role.
+Regular Updates and Patching Keeping software and hardware up to date to protect against vulnerabilities.
+Why Use Computer Networks
+Computer network play a important role in modern life. Here are some key benefits of computer networks.
+Fast and Easy Communication Networks enable all types of digital communication, like emails, messaging, file sharing, video calls, and streaming.
+More Storage Space Suppose if we dont have a cloud storgae then we have to store data in physical files that will consume a physical space so computer network provide a storage for storing data.
+Easier Sharing of Information Networks make it simpler for users and teams to share resources and information. Teams can collabrate more easily, and users get faster response from network devices.
+Better Security Well designed networks are more reliable and give businesses more options for keeping data safe. They come with built in security features like encryption and access controls to protect sensitive information from cyber threats.
+Conclusion 
+Understanding the basics of computer networking is essential in todays interconnected world. Networks enable the seamless exchange of information, support countless applications, and underpin the functionality of the internet. From different types of networks and their components to protocols and security measures. a solid grasp of these concepts is foundational for anyone working in or with technology. As technology evoles, so too will the complexity and capabilities of computer networks, making continuous learning and adaptation crucial.
+Frequently Asked Questions Basics of Computer Networking FAQs
+What is an IP address
+An IP Internet Protocol address is a unique identifier assigned to each device on a network. It allows devices to locate and communicate with each other. There are two types of IP addresses IPv e.g., IPv 
+What is the different between TCP and UDP
+TCP Transmission Control Protocol A connection oriented protocol that ensure reliable and ordered delivery of data. It is used for applications where speed is more important that reliability, like streaming and gaming.
+What is a firewall
+A firewall is a network security device or software that monitors and controls incoming and outgoing network traffic based on predefined security rules. It acts as a barrier between a trusted internal network and untrusted external networks like the internet.
+What is a subnet mask
+A subnet mask is used in IP addressing to divide the network into sub networks, or subnets. It helps determine which portion of and IP address is the network address and which part is the host address
+What is NAT Network Address Translation
+NAT is a method used by routers to translate private IP addresses within a local network to a public IP address befor sending data over the internet. This helps to conserve IP addresses and add a layer of security by hiding internal network addresses.
