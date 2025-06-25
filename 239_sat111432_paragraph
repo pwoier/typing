@@ -1,0 +1,13 @@
+Transmission Modes in Computer Networks Simplex, Half Duplex and Full Duplex 
+Transmission modes also known as communication modes, are methods of transferring data between devices on buses and networks designed to facilitate communication. They are classified into three types. Simplex Mode, Half Duplex Mode, and Full Duplex Mode. In this article, we will discuss Transmission Modes.
+What is Transmission Modes?
+Transmission mode means transferring data between two devices. It is also known as a communication mode. Buses and networks are designed to allow communication to occur between indvidual devices that are interconnected. There are three types transmission modes.
+Aiming for a top All India Rank in the GATE Courses CSE and DA at GeeksforGeeks are designed to give you the competitive edge you need. Get live classes from GATE Khaleel Sir, Chandan Jha Sir, Vijay Agarwal Sir, and many others. practice problems, doubt support previous year questions, quizzes, all India mock tests, and much more all in one place.
+Simplex Mode
+In Simplex mode, the communication is unidirectional, as on a one way street. Only one of the two devices on a link can transmit, the other can only receive. The simplex mode can use the entire capacity of the channel to send daya in one direction.
+Example Keyboard and traditional monitors. The keyboard can only introduce input, the monitor can only give the output.
+Advantages of Simplex Mode
+Simplex mode is the easiest and most reliable mode of communication.
+It is the most cost effective mode, as it only requires one communication channel.
+There is no need for coordination between the transmitting and receiving devices, which simplifies the communication process.
+Simplex mode is particularly useful in situations where feedback or response is not required, such as broadcasting or surveilance.

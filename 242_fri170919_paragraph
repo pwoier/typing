@@ -1,0 +1,17 @@
+What is Ethernet
+A LAN is data communication network connecting various terminals or computers with a building or limited geographical area. The connection between the devices could be wired or wireless. Ethernet, Token rings, and Wireless LAN using IEEE are examples of standard LAN tectnologies. In this article we will see ethernet in detail.
+i love you mom
+Ethernet 
+Ethernet is the most widely used LAN technology and is defined under IEEE standards. The reason behind its wide usability is that Ethernet offer flexibility in terms of the topologies that are allowed. Ethernet generally uses a bus topology. Ethernet operates in two layers of the OSI model, the physical layer and the data link layer. For Ethernet, the protocol data unit is a frame since we mainly deal with DLLs. In order to handle collisions, the Access control mechanism used in Ethernet is CSMA CD.
+Altough Ethernet has been largely replaced by wireless networks. A wired networking still uses Ethernet more frequently. WiFi eliminates the need for cables by enabling users to connect their smartphones or laptops to a network wirelessly. The ac WiFi standard offers faster maximum data transfer rates when compared to Gigabit Ethernet. However, wired connections are more secure and less susceptible to interference than wireless networks.
+Aiming for a top All India Rank in the GATE CS IT or GATE DA exam but unsure about your preparation level
+We ve got you covered Our GATE Courses for CSE and DA at GeeksforGeeks are designed to give you the competitive edge you need. Get live classes from GATE experts Khaleel Sir, Chandan Jha Sir, Vihay Agarwal Sir, and many others. practice problems, doubt support, previous year questions, quizzes, all India mock tests, and much more all in one place.
+History of MAC
+As far as history, we can say that Xerox PARC scientists have created the existence of Media Access Control addresses, There are many similar terms that are used is place of MAC address such as hardware address, physical address, ethernet hardware address of a network devices. Even burned in address BIA especially for Cisco Router Switches also referred to as the same.
+Characteristics of MAC
+The MAC address that is considered to be the distinguishing number of the hardware is globally unique. This lets us identify each device within a connected network.
+The total length MAC address in byte is or bits. According to the IEEE standards, this address is written in three commonly used formats.
+Six two digits hexadecimals seperated by hyphens like
+Six two digits hexadecimals seperated by colons like
+the four digits hexadecimals seperated by dots like
+The left bits bytes of the address is termed as Organizationally Unique Identifier number. This OUI number is assigned by Internet Assigned Number Authority IANA. This globally unique OUI nunber will always remain the same for NICs manufactured by the same company. The right bits bytes of the address is termed as Network Interface Controller Specific NICS, which is responsible for communication either by using cables or wirelessly over a computer network.

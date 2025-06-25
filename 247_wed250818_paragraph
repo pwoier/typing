@@ -1,0 +1,17 @@
+Tweet This Book!
+Please help Jeff Geerling by spreading the word about this book on Twitter
+The suggeste tweet for this book is
+I just purchased Ansible Dev Ops by greelingguy on leanpub https leanpub.com ansible for devops ansible
+The suggested hashtag for this book is ansible Find out what other people are saying about this book by clicking on this link to search for this hashtag on Twitter
+https twitter.com search q ansible
+To my wife and children, and to the many readers who have helped make this book a reality. Cover photograph and illustration Jeff Geerling
+Ansible is a software product distributed under the GNU GPL v open source license. Editing by Margie Newman and Katherine Geerling.
+Contents Preface Who is this book for Typographic conventions Please help improve this book About the Author
+Introduction In the beginnin, there were sysadmins Modern infrastructure management Ansible and Ansible Inc Anisble Examples Other resources
+Chapter Getting Started with Ansible
+Ansible and Infrastructure Management On snowflakes and shell scripts Configuration management Instralling Ansible Creating a basic inventory file
+Running you first Ad Hoc Ansible command
+Summary
+Growing up, I had access to a world that not many kids ever get to enter. At the local radio stations where my dad was chief engineer, I was fortunate to get to see networks and IT infrastructure up close Novell servers and old Mac and Windows workstations in the s Microsoft and Linux based servers and everything in between. Best of all he brought home decommissioned servers and copies of Linux burned to CD.
+I began working with Linux and small scale infrastures before I started high school, and my passion for infrastructure grew as I build a Cat wired network and a small rack of networking equipment for a local grade school. When I started developing full time what was once a hobby became a necessary part of my job, so I invested more time in managing infrastructure efficiently. Over the past ten, years, I ve gone from manually booting and configuring physical and virtual servers, to using relatively complex shell scripts to provision and configure servers, to using configuration managment tools to manage many cloud based servers.
+When I began converting my infrastrure to code, some of the best tools for testing, provisioning, and managing my servers were still in their infancy, but they have since matured into fully featured, robust tools that I use every day. Vagrant is an excellent tool for managing local virtual machines to mimic real world infrastructure locally or in the cloud and Ansible the subject of this book is an excellent tool for provisioning servers, managing their configuration and deploying applications, even on my local workstation.
