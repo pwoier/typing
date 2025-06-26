@@ -1,0 +1,7 @@
+who is this book for
+Many of the developers and sysadmins I work with are at least moderately comfortable administering a Linux server via SSH, and manage between servers.
+Some of these people have a little experience with configuration management tools usually with Puppet or Chef, and maybe a little experience with deployments and continuous integration using Preface
+tools like Jenkins, Capistrano, or Fabric. I am writing this book for these friends who, I think, are representative of most people who have heard of and or are beginning to use Ansible.
+If you are interested in both decelopment and operations, and have at least a passing familiarity with managing a server via the command line, this book should provide you with an intermediate to expert level understanding of Ansible and how you can use it to manage your infrastructure.
+Typographic conventions
+Ansible uses a simple syntax YAML and simple command line tools
