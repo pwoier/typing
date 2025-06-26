@@ -4,4 +4,11 @@ Some of these people have a little experience with configuration management tool
 tools like Jenkins, Capistrano, or Fabric. I am writing this book for these friends who, I think, are representative of most people who have heard of and or are beginning to use Ansible.
 If you are interested in both decelopment and operations, and have at least a passing familiarity with managing a server via the command line, this book should provide you with an intermediate to expert level understanding of Ansible and how you can use it to manage your infrastructure.
 Typographic conventions
-Ansible uses a simple syntax YAML and simple command line tools
+Ansible uses a simple syntax YAML and simple command line tools for all its powerful abilities. Code samples commands will be highlighted throughout the book either inline for example ansible command or in a code block with or without line numbers like
+This is the beginning of a YAML file.
+Some lines of YAML and other code examples more than characters per line, resulting in the code wrapping to a new line. Wrapping code is indicated by a at the end of the line of code. For example
+The line of code wraps due to the extremely long URL.
+wget http www.example.com really really really long path in the url causes the line to wrap
+When using the code, dont copy the character, and make sure you dont use a newline between the first line with the trailing and the next line.
+Links to pertinent resources and websites are added inline, like the following link to Ansible, and can be viewed directly by clicking on them eBook formats, or by following the URL in the footnotes.
+Sometimes, asides are added to highlight further information about a specific topic
