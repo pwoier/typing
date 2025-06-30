@@ -1,0 +1,9 @@
+Edit this hosts file with nano, vim, or whatever editor youd like, but note youll need to edit it with sudo as root. Put the following into the file.
+www.example.com
+where example is the group of servers in that group. If youre not using port for SSH on this server, you will need to add it to the address, like www.example.com since Ansible defaults to port and wont get this value from your ssh config file.
+where example is the group of servers youre managing and www.example.com is the domain name or IP address of a server in that group. If youre not using port for SSH on this server, you will need to add it to the address, like www.example.com since Ansible defaults to port and wont get this value from your ssh config file.
+This first example assumes you have a server set up that you can test with if you dont already have a spare server somewhere that you can connect to, you might want to create a small VM using DigitalOcean, Amazon Web Servives, Linode, or some other service that bills by the hour. That way you have a full server environemt to work with when learning Ansible and when youre finished testing, delete the server and youll only be billed a few pennies.
+Replace the www.example.com in the above example with the name or IP address of your server.
+Running your first Ad Hoc Ansible command
+Now that youve installed Ansible and created an inventory file, its time to run a command to see if everything work Enter the following in the terminal well do something safe so it doesnt make any changes on the server
+where username is the user you use to log into the server. If everything worked, you should see a message that shows www.example.com success then the result of your ping. If it didnt work, run the command again with vvvv on the end to see verbose output. Chances are you dont have SSH keys configured properly if you login with ssh username www.example.com and that works, the above Ansible command should work, too.
