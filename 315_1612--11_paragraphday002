@@ -1,0 +1,9 @@
+Your first local server: Setting up Vagrant
+To get started with your first local virtual server, you need to download and install Vagrant and VirtualBox, and set up a simple Vagrantfile, which will describe the virtual server.
+Download and install Vagrant and VirtualBox whichever version is appropriate for your OS Download Vagrant Download VirtualBox when installing, make sure the command line tools are installed, so Vagrant work with it.
+Create a new folder somewhere on your hard drive where you will keep your Vagrantfile and provisioning instructions.
+Open a Terminal or PowerShell window, then navigate to the folder you just created.
+Add a CentOS x bit box using the vagrant box add command vagrant box add geerlingguy centos note HashiCorps Atlas has a comprehensive list of different premade Linux boxes. Also check out the official Vagrant Ubuntu boxes on the Vagrant wiki 
+Create a default virtual server configuration using the box you just downloaded vagrant init geerlingguy centos
+Boot you CentOS server vagrant up
+Vagrant has downloaded a pre built bit CentOS virtual machine you can build your own virtual machine boxes if you so desire loaded it into VirtualBox with the configuration defined in the default Vagrantfile which is now in the folder you created earlier and booted the virtual machine.
