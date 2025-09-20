@@ -1,0 +1,5 @@
+Network interface management You can forward port to a VM, share the public network connection or use private networking for inter VM and host only communication.
+Shared folder management Vagrant sets up shares between your host machine and VMs using NFS or much slower native folder sharing in VirtualBox.
+Multi machine mangement Vagrant is able to configure and control multiple VMs within one Vagrantfile. This is important because as stated in the documentation, Historically running complex environments was done by flattening them onto a single machine. The problem with that it is an inaccurate model of the production setup, which behaves for differently.
+Provisioning When running vagrant up the first time Vagrant automatically provisions the newly minted VM using whatever provisioner you have configured in the Vagrantfile. You can also run vagrant provision after the VM has been created to explicitly run the provisioner again.
+It'ss this last
