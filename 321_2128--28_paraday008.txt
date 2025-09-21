@@ -1,0 +1,11 @@
+Before Ansible runs the play, Ansible prompts the user for a username and password, the latter's input being hidden on the command line for security purposes.
+There are a few special options you can add to prompts:
+private: If set to yes, the user's input will be hidden on the command line.
+default: You can set a default value for the prompt, to save time for the end user.
+encryt confirm salt size These values can be set for passwords so you can verify the entry the user will have to enter the password twice if confirm is set to yes, and encrypt it using a salt with the specified size and crypt scheme. See Ansible's Prompts documentation for detailed information on prompted variable encryption.
+Prompts are a simple way to gather user specific information, but in most cases, you should avoid them unless absolutely necessary. It's preferable to use role or playbook variables, inventory variables, or even local environment variables, to maintain compltete automation of the playbook run.
+Tags
+Tags allow you to run or exclude subsets of a playbook's tasks.
+You can tag roles, included files, individual tasks, and entire plays. The syntax is simple, and below are examples of the different ways you can add tags:
+If you want to perform a series of tasks with one set of task parameters e.g. with items, when, or sudo applied, blocks are quite handy.
+Blocks are also useful if you want to be able to gracefully handle failures in certain tasks. There might be a task that connects your app to a monitoring service that's not essential for a deployment to might be a task that connects your app to a monitoring service that's not essential for development to succeed, so it would be better to gracefully handle a failure than to bail out of the entire deployment. Here's to use a block to gracefully handle task failures.
