@@ -1,0 +1,6 @@
+I wont be covering dynamic inventory in this chapter, but will mention that the ec.py dynamic inventory script, along with Ansibes extensive support for AWS infrastructure through ec modules, makes Ansible the best and most simple tool for managing a broad AWS infrastructure. In the next chapter, one of the examples will include guide for provisioning infrastucture an AWS, along with a quick overview of dynamic inventory on AWS.
+Inventory on the fly add host and group by
+Sometimes, especially when provisioning new servers, you will need to modify the in memory inventory during the course of a playbook run. Ansible offers the add host and group by modules to help you manage inventory for these scenarios.
+In the DigitalOcean example above, add host was used to add the new droplet to the do group You could add multiple groups with add host, and you can also add other variables for the host inline with add host. As an example, lets say you created a VM using an image that exposes SSH on port and requires an application specific memory limit specific to this VM.
+The custom port will be used when Ansible connects to this host, and myapp memory maximum will be passed into the playbooks just as any other inventory variable.
+The group by module is even simpler, and allows you to create dynamic groups during the course of a playbook run. Usage is extremely simple.
