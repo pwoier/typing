@@ -1,0 +1,1 @@
+If you were creating this playbook for a server or VM running outside of Vagrants

@@ -1,0 +1,6 @@
+Ansible conveniently lets you define or override variables on a per host or per group basis. As we learned earlier, your inventory file can define groups and hosts like so
+The simplest way to define variables on a per host or per group basis is to do so directly within the inventory file
+In this case, Ansible will use the group default variable john for admin user but for host and host, the admin users defined alongside the hostname will be used.
+This is convenient and works well when you need to define a variable or two per host or pergroup, but once you start getting into more involved playbooks, you might need to a few host specific variables. In these situations, you can define the variables in a different place to make maintenance and readability much easier.
+Automatically loaded group vars and host vars
+Ansible will search within the same directory as your inventory file or inside etc ansible if youre using the default inventory file at etc ansible hosts for two specific directories group vars and host vars.
