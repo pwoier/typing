@@ -1,0 +1,11 @@
+There are a number of different ways you can structure your infrastructure management playbooks and roles, and well explore some in later chapters, but for a simple infrastructure, something like this is adequate and maintainable.
+Non prod environments, separate inventory files
+Using the above playbook and the globally configured Ansible inventory file is great for your production infrastructure, but what happens when you want to configure a separate but similar infrastructure for, say a development or user cerification environment
+In this case, its easiest to use individual inventory files, rather than the central,  locally managed Ansible inventory file. For typical team managed infrastructure, I would recommend including an inventory file for each environment in the same version controlled repository as your Ansible playbooks, perhaps within an inventories directory.
+For example, I could take the entire contents of etc ansible hosts above, and that inside an inventory file named inventory prod, then duplicate it, changing server name where appropriate e.g. the servercheck web group would only have www dev.servercheck.in for the development environment, and naming the file for the environments.
+Now, when running playbook.yml to configure the development infrastructure, I would pass in the path to the dev inventory assuming my current working directory is severcheck
+Using inventory variables which will be explored further, and well constructed roles and or tasks that use the variables effectively, you could architect your entire infrasture, with environment specific configurations, by changing some thigs in your inventory files.
+Inventory variables
+Chapter introduced basic methods of managing variables for individual hosts or groups of hosts through your inventory in the inventory variables section, but its worth exploring the different ways of defining and overriding variables through inventory here.
+For extremely simple use cases usually when you need to define one or two connection related variables like ansible ssh user or ansible ssh port you can place variables directly inside an inventory file.
+Assuming we have a standalone inventory file for a basic web application, here are some examples of variable definition inside the file.

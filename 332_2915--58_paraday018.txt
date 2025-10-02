@@ -1,0 +1,7 @@
+If you want to exclude anything tagged with notifications, you can use skip tags.
+This is incredibly handy if you have a decent tagging structure when you want to only run a particular portion of a playbook, or one play in a series or alternatively, if you want to exclude a play or included tasks, then its easy to do using tags or skip tags
+There is one caveat when adding one or multiple tags using the tags option in a playbook you can use shorthand tags tagname when adding just one tag, but if adding more than one tag, you have to use YAMLs list syntax, for example.
+In general, I tend to use tags for larger playbooks, especially with individual roles and plays, but unsless Im debugging a set of tasks I generally avoid adding tags to individual tasks or includes not adding tags everywhere reduces visual clutter. You will need to find a tagging style that suits your needs and let you run or not run the specific parts of your playbooks you desire.
+Blocks
+Introduced in Ansible, Blocks allow you to handle errors inside the blocks in a way similar to most programming languages exception handling.
+Heres an example playbook that uses blocks with when to run group of tasks specific to one platform without when parameters on each task
