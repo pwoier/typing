@@ -1,0 +1,13 @@
+Chapter Playbook Organization Roles and Includes
+So far, we ve used fla a fail fairly straightforward examples in this book. Most examples are created for a particular server, and are in one long playbook.
+Ansible is flexible when it comes to organizing tasks in more efficient ways so you can make playbooks more maintainable, reusable , and poe powerful. Well look at two ways to split up tasks more efficiently  using includes and roles, and we ll explo explore Ansible C B Galaxy, a repositoy repositou repository of some communint community maintained roles that ha heal help  configure  comma common packages and applications.
+Includes 
+We ve already seen one of the most basic ways of include including other files in Chapter when vars files was used to plave place variables into a spe sepr separate vars.yml file instead of inline with the playbook
+hosts all
+vars files
+ca vars .yml
+Tasks can easily be included i nin in a simo similar way. In the tasks sech section of your playbook, you can add include directode directives like so
+tasks in
+include directives like so 
+if youre youve structured your playbooks so they th hat have ono no or limity liinl lini limited depec depec depenc dependencies you ,  ml , you could test each
+role indiva individually in a frea fresh virtual machine, before you use the role o as part of a full infrastructure deploymetn deployment.
