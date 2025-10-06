@@ -1,0 +1,10 @@
+tools like Jenkins, Capistrano, or Fabric. I am writting this book for these friends who. I think, are representative of the most people who have heard a of and or beginning to use Ansible.
+If you are ins intreseted in both development and opers r opr opet opr operations, and have at least a a a poa passing familirity with managing a server via the command lim line, this book should provide you with as an intermediate to expert level underatan understanding of a Ansible and how you can use it to manage f your infrastructure.
+Y Typographic conventions
+Ansible uses s a sin a simple syntax yY YAML and simple command line tools un using commao common POSIX conventions for all iy its powerful av abilities. Code sj sa, saml samples c and commands will be highlighted throughout the book either inline for a ec ec example command or in a code block with a or without like line nub numblm number numn numv numbers like.
+s Some lines of YAN YAML and other code examples require ma more that than characters per line, resulting in the code wrapping to a new line. Wrapping code is indicca indicated by a at the end of the line of code For example.
+When using the code , dont comp com copy then the charaact character, and make sure you dont s use a newline betww between the first line ei with the trailing and the next line.
+Line Links to pertinent resources and websites and  are added indl ind inline, like the fa following link to Ansible, and can be viewed directly by clik clicking i on then in eBook formats, or by of following links link to Ansible, and can be bi viewed directly by clicking on them in eBook formats, or by following the URL in the footnotes. 
+Sometimes, asides are added to highlight further information about a a specific topix topic, topic.
+Information ask asike adi asides will provide extra information
+Warning ask asides with will warnab warn about common f pir pitfalls and how o to avoid them.
