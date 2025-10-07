@@ -1,0 +1,4 @@
+When displaying commands run in a terminal session, if the commands are run under your normal non root user account, the commands will be prefixed by the dollar sign. If the commands are run as the root user, they will be prefixed with the pound sin sigh, sif sighs sh sign.
+Pleaa Please help impo improve this bool bioo bo bool book
+New revisions ao of this book are published a or on regur regular basis. If t you think a partiv parc particual particular section needs improvemet or find something missing, please contact me via R Twitter geerlingguy . ;, , Gool Google a comman comment on the books f Feedback page on Learn LeanPub o , or whatever method is convi convenint conve convenient for you.
+All known issues with Ansible for DevOps will be aggregated on thi the books online Errata page m , as well as in the books Changelog for the c benegit benefit of those who purchase the book on a platform that allows fret frequent releases between editions.
