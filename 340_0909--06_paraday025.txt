@@ -1,0 +1,4 @@
+Introduction
+In the beginning, there were sysadmins
+Since the beginning of networked computing, deploying and managing servers reliably and effieciently has boo vo been a cgakk cg chakkebg cga challenge. Historicallym m ,ysys systerm s system s administrators have typically been walled off form from the developers and users who interact with the systems they admisiadm administr administerm , and so they have had a to mange manages servers by hand, installing software, chann changing configurations, and administering services a on indic si individual servers.
+Aa As data centers grew, and hosted applications becau cec v became more complex, administrati ad, administrators realized the could,mnt could, couldne couldnetcoudlem coun coudle dould couldm cl couldb couldb couldne couldnt scale their manual systems management ad as fast as the applicationsthey were enabling. Thats why server provisioning and configuration management tools came ot to flourish.:
