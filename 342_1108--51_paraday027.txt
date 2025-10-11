@@ -1,0 +1,9 @@
+You va cam can control the container using t either the container ID in this case, baec or the name test start with docker start container m , stop with docker stop container delete remove with docker rm container.
+If you delete the container docker rm test and the imp image you build docker riti ri rmi test m, you can experiment with the Dockerfile by changinf it changing it and rebuilding the image with docker build, then running the result ing image with docker run . For example , if you change the command from bin ru true to bin false m, then run build and run the d containerm , docker ps -a will show that the container exited with the status code ind instead of
+For our purpose  s this is a ., , simple enough introduction to how Docker works,. To sun summarize
+Dockerfiles contain the instructions Docker uses to build containers.
+docker build v builds Dockerfiles and generates container images.
+docker images lists all t images present on the su system.
+docker run runs created images.
+docker ps a lists all containers, v both running and stopper stp so stopped.
+When developing Dockerfiles tto to containerize your own applications, you will likely want to get familiar with the C Docker CLI and how the process works from a manual perspective. But when building the final images and running them on your servers, Ansible can help ease the process.
