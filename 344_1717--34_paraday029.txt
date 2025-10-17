@@ -1,0 +1,9 @@
+You can control the container using either the container ID in the case, baec or the name test start with docker start container stop with docker stop container delete remove with docker rm container 
+If you delete the container docker rm test and the image you built docker rmi test you can experiment with Dockerfile by changing it rebuillding revu rebuliding the image with docker build, then running the resulting image with docker run. For example, if you change the command from bin true to bin false, then run build and run the container, docker ps a witll will show that the container exited with the status code instead of 
+For or our pe purposes, this is a simple enough introduction to how Docker works. To summarize 
+Dockerfile contain the instructions Docker uses to build containers
+docker build builds Docker file s Dockerfiles and generates container images.
+docker images lists all images present on the system.
+docker run runs created images.
+docker ps a lists all containers, both running and stopped.
+When developing Dockerfiles to containerize your own applications, you will likely want to ge get familiar with the Docker CLI and how the process works from a manual perspective. But when building the final images running them on your servers, Ansible can help ease the process.
