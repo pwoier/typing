@@ -1,0 +1,2 @@
+After a few minutes, an entire LAMP server should be set up and running. If you add in a few variables, you can configure virtualhosts, PHP configuration options, MySQL server settings, etc.
+Weve effectively reduced about thirty lines of YAML from previous examples dealing with LAMP or LAMP like servers down to three. Obviously, the roles have extra code in them, but the power here is in abstraction. Since most companies have many servers using similar software, but with slightly different configurations, having centralized, flexible roles saves a lot of repetition.
