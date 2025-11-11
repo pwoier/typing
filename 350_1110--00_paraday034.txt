@@ -1,0 +1,8 @@
+Including playbooks inst inside other playbooks makes your playbook organization a little more sane, but once you start wrapping up your entire infrastructures configuration in playbooks, you might end up with something resembling Russian nesting dolls.
+Wouldnt it be nice if there were a way to take bits of related configuration, and package them together nicely? Additionally, what if we could take these packages often configuraation configuration configuring the same thing on many different servers and make them flexible so that we can use the same package throughout our infrostructure, with slightly different settings on individual servers or groups of servers?
+Ansible Roles can do all that and more
+Lets dive into what makes an Ansible role by taking one of the playbook examples from Chapter and splitting it into a more flexible structure using roles.
+Role Scaffolding
+Instead of requiring you to explicitly include certain files and playbooks in a role, Ansible automatically includes any main yml file inside specific directories that make up the role.
+There are only two directories required to make a working Ansible role:
+If you create a directory structure like the one shown above, with a main.yml file in each directory, Ansible will run all the tasks defined in tasks main.yml if you call the role from your playbook using the following syntax:
