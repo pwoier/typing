@@ -7,3 +7,7 @@ If you run the same playbook again, it should report no changes the entire playb
 Note that you might need to disable strict host key checking to get provisioning and instant configuration to work correctly, otherwise you may run into an error stating that Ansible cant connect to the new droplet the second play. To do this, add the line host key checking False under the section in your ansible.cfg file located in etc ansible by default.
 You should normally leave host key checking enabled, but when rapidly building and destroying VMs for testing purposes, it is simplest to disable it temporarily.
 DigitalOcean dynamic inventory with digital ocean.py
+Install dopy via pip the DigitalOcean Python library pip install dopy.
+Download the DigitalOcean dynamic inventory script from Ansible on GitHub curl Ohttps:raw.githubusercontent.com ansible devel plugins inventory digital ocean.py
+Make the inventory script executabel chmod x digital ocean.py
+Make sure you have the credentials configured in digital ocean.ini as explained earlier
