@@ -1,0 +1,10 @@
+Chapter Deployments with Ansible
+Deploying application code to servers in one of the hardest, but most rewarding, tasks of any development team. Most shops using traditional deployment techniques manual steps, shell scripts, and prayers dread deployments, especially for complex, monolithic apps.
+Deployments are less dauting when you adopt modern deployment processes and use the right amount of automation. In the best case, deployemts become so boring and routine they barely register as a blip on your teams radar.
+Consider Etsy, a company whose engineers are deploying code to production up to times per day, with no manual intervention from the operations team. The operations team is free to work on more creative endeavors, and developers see their code go live in near real time.
+Etsys production deployment schedule is enabled by a strong DevOps oriented culture with robust code repository management, continuous integration, well tested code, feature flags, etc. While it may not be immediately possible to start deploying your application to production times a day, you can move a long way towards effortless deployments by automating deployments with Ansible.
+Deployment strategies
+There are dozens of ways to deploy code to servers. For the most basic applications, you may only need to switch to a new tag in a code repository on the server and restarting a service.
+For more complex applications, you might do a full Blue Green deployment, where you build an entire new infrastructure alongside your current production infrastructure, run tests on the new inftrasture, the automatically cut to the new instance, then automatically cut over to the new instances. This may be overkill for many applications especially if uptime is acceptable, but it is becoming more common and Ansible automates the entire process.
+In this chapter, we will be covering the following deployment strategies:
+single server deployments techniques, and they cover many common use cases. There are other ways to stregthen your deployment processes, often involving application level and organizational change, but those deployment aspects are out of the scope of this book.
